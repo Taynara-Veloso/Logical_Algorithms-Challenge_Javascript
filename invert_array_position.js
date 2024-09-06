@@ -41,3 +41,9 @@ function reverseArrayWhile(ar){
 }
 
 console.log(reverseArrayWhile(ar))
+
+//--------------REVERSE-----------------
+
+const reversed = [...ar].reverse();
+
+console.log(reversed)
